@@ -1,7 +1,7 @@
 # PATH SETTING #
 # * add path path to home brew
 # typeset -Ug : deal with path as set of PATH
-# N-/         : add path if not exist
+# N-/         : add path when the path exists
 typeset -gU path PATH
 path=(
   /opt/homebrew/bin(N-/)

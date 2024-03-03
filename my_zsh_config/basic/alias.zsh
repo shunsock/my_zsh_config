@@ -21,9 +21,9 @@ alias lls='ls -FhalnS'
 alias lk='ls -Fhk'
 
 # Alias 'v' to open files with the Vim text editor
-alias v='vim'
+alias v='nvim'
 # Alias 'vi' to open files with the Vim text editor
-alias vi='vim'
+alias vi='nvim'
 
 # Alias 'df' to display disk space usage for all file systems, showing sizes in kilobytes
 alias df='df -kh'

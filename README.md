@@ -3,6 +3,8 @@
 ## About
 my zsh config files.
 
+![](image/terminal.png)
+
 ## Install
 ```shell
 git clone git@github.com:shunsock/my_zsh_config.git

@@ -48,6 +48,7 @@ echo "[processing ... 2/4] 🚀 Removing old configuration"
 
 echo "[processing ... 3/4] 🚀 Copying new configuration"
 [[ ! -d $ZSH_RC_FILE ]] && cp .zshrc $HOME/.zshrc
+[[ ! -d "$HOME/.zsh" ]] && mkdir -p $HOME/.zsh
 [[ ! -d $ZSH_CUSTOM_CONFIG ]] && cp -r my_zsh_config $ZSH_CUSTOM_CONFIG
 
 

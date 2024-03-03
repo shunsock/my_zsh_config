@@ -29,5 +29,5 @@ cd my_zsh_config
 zsh install.zsh
 ```
 
-![](image/install_png)
+![](image/install.png)
 
